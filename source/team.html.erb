@@ -1,0 +1,24 @@
+
+
+<ul class="list-inline text-center">
+  <% ["papillard", "ssaunier"].each do |gh_username| %>
+    <li>
+      <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
+      <h3><%= gh_username.capitalize %></h3>
+    </li>
+  <% end %>
+</ul>
+
+
+<!-- HTML output -->
+<ul class="list-inline text-center">
+  <li>
+    <img src="https://kitt.lewagon.com/placeholder/users/dancondo" alt="">
+    <h3>Danilo</h3>
+  </li>
+  <li>
+    <img src="https://kitt.lewagon.com/placeholder/users/Mrick973" alt="">
+    <h3>Hemrick</h3>
+  </li>
+</ul>
+

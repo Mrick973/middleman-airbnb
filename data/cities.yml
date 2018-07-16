@@ -1,0 +1,17 @@
+berlin:
+  name: 'Berlin'
+  image_url: 'https://kitt.lewagon.com/placeholder/cities/berlin'
+  address: 'Berlinstrunst 444'
+  #user_url: 'https://kitt.lewagon.com/placeholder/users/Mrick973'
+
+rio:
+  name: 'Rio de Janeiro'
+  image_url: 'https://kitt.lewagon.com/placeholder/cities/rio'
+  address: 'Copacabana, 100'
+  # user_url: 'https://kitt.lewagon.com/placeholder/users/Mrick973'
+
+tokyo:
+  name: 'Tokyo'
+  image_url: 'https://kitt.lewagon.com/placeholder/cities/tokyo'
+  address: 'Kopacabana, 100'
+# user_url: 'https://kitt.lewagon.com/placeholder/users/Mrick973'
