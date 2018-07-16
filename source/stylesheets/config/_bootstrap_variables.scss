@@ -12,7 +12,7 @@ $font-size-base: 18px;
 // Colors
 $gray-base:       $gray;
 $brand-primary:   $blue;
-$brand-success:   $green;
+$brand-success:   $or;
 $brand-info:      $yellow;
 $brand-danger:    $red;
 $brand-warning:   $orange;
@@ -23,3 +23,16 @@ $border-radius-large: 2px;
 $border-radius-small: 2px;
 
 // Override other variables below!
+.banner {
+  background: $blue;
+  color: white;
+  h1 {
+    font-size: 50px;
+  }
+  a {
+    color: $red;
+    &:hover {
+      color: darken($red, 10%);
+    }
+  }
+}
